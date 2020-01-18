@@ -1,0 +1,79 @@
+/*  SOCIAL MEDIA ICONS  */
+ul.icon-list {
+	list-style: none;
+    margin: 0;
+}
+
+.icon-list li {
+	display: inline-block;
+	color: white;
+	margin: 0 auto;
+	padding-top: 70px;
+	position: relative;
+	text-align: center;
+	width: 95px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.icon-list li::before {
+	background-size: cover;
+	content: '';
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 0;
+	left: 50%;
+	margin-left: -30px;
+    border-radius: 50%;
+    border-color: blanchedalmond;
+	opacity: 1;
+	transition: background-color 0.2s;
+}
+.icon-list li::after {
+	background-size: cover;
+	content: "";
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 50%;
+	margin-left: -30px;
+  top: 0;
+}
+.facebook-icon::before {
+	background-color: rgb(255, 255, 255);
+}
+.facebook-icon:hover::before {
+	background-color: rgb(221, 221, 221);
+}
+.facebook-icon::after {
+	background-image: url('./socialmediaSVG/facebook.svg');
+}
+.insta-icon::before {
+	background-color:#ffffff ;
+}
+.insta-icon:hover::before {
+	background-color: rgb(221, 221, 221);
+}
+.insta-icon::after {
+	background-image: url('./socialmediaSVG/instagram.svg');
+}
+.github-icon::before {
+	background-color: rgb(255, 255, 255);
+}
+.github-icon:hover::before {
+	background-color: rgb(221, 221, 221);
+}
+.github-icon::after {
+	background-image: url('./socialmediaSVG/github.svg');
+}
+.vimeo-icon::before {
+	background-color: rgb(255, 255, 255);
+}
+.vimeo-icon:hover::before {
+	background-color: rgb(221, 221, 221);
+}
+.vimeo-icon::after {
+	background-image: url('./socialmediaSVG/vimeo.svg');
+}
+

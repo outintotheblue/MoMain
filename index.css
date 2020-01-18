@@ -1,0 +1,194 @@
+:root {
+    --background: #070707;
+    --text: #EFF0FA ;
+    --highlights: #7C7C7C ;
+}
+
+
+body {
+    background: var(--background) ;
+    color: var(--text)
+}
+/* navigation bar */
+.topnav {
+	background-color: var(--background);
+	height: 50px;
+	font-family: 'Barlow';
+	
+}
+.topnav a {
+	justify-content: center;
+	color: var(--text);
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+	font-size: 0.90em;
+}
+
+
+.topnav a:hover{
+	text-decoration: underline;
+}
+
+.topnav a.active {
+	color: var(--text);
+}
+
+#index{
+	padding-left: 40%;
+	padding-right: 20px;
+}
+#info{
+	padding-right: 20px;
+}
+#video{
+	padding-right: 20px;
+}
+/* navigation bar end */
+
+
+/* crossfade */
+.container{
+	font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    color: white;
+	height: 1080px;
+	width: 100%;
+    min-width: 50%;
+    text-align: center;
+    display: table;
+    margin: 0;
+    background: #1c1c1c;
+    padding: 0 0;
+
+}
+
+#back1 {
+	background: url(./crossfadewebsite/DSC00125\ copy.jpg) no-repeat center fixed;
+}
+
+#back2 {
+	background: url(./crossfadewebsite/DSC01877\ copy.JPG) no-repeat center fixed;
+}
+
+#back3 {
+	background: url(./crossfadewebsite/Screenshot\ 2020-01-14\ at\ 16.21.28.png) no-repeat center fixed;
+}
+#back4 {
+	background: url(./crossfadewebsite/Screenshot\ 2020-01-14\ at\ 17.07.22.png) no-repeat center fixed;
+}
+#back5{
+	background: url(./crossfadewebsite/Screenshot\ 2020-01-14\ at\ 17.23.08.png) no-repeat center fixed;
+}
+
+#back6 {
+	background: url(./crossfadewebsite/Screenshot\ 2020-01-14\ at\ 17.23.20.png) no-repeat center fixed;
+}
+
+#back7 {
+	background: url(./crossfadewebsite/Screenshot\ 2020-01-14\ at\ 17.23.45.png) no-repeat center fixed;
+}
+
+/* #crossfade div {
+	animation-name: crossfadeFadeInOut;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 18s;
+	
+	-webkit-animation-name: crossfadeFadeInOut;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-duration: 18s;
+	
+	}
+
+@keyframes crossfadeFadeInOut {
+	0% {
+	  opacity:1;
+	}
+	17% {
+	  opacity:1;
+	}
+	25% {
+	  opacity:0;
+	}
+	92% {
+	  opacity:0;
+	}
+	100% {
+	  opacity:1;
+	}
+  }
+  
+  @-webkit-keyframes crossfadeFadeInOut {
+	0% {
+	  opacity:1;
+	}
+	17% {
+	  opacity:1;
+	}
+	25% {
+	  opacity:0;
+	}
+	92% {
+	  opacity:0;
+	}
+	100% {
+	  opacity:1;
+	}
+  }
+
+  #crossfade div:nth-of-type(1) {
+	animation-delay: 18s;
+	-webkit-animation-delay: 18s;
+  }
+  #crossfade div:nth-of-type(2) {
+	animation-delay: 15s;
+	-webkit-animation-delay: 15s;
+  }
+  #crossfade div:nth-of-type(3) {
+	animation-delay: 12s;
+	-webkit-animation-delay: 12s;
+  }
+
+  #crossfade div:nth-of-type(4) {
+	animation-delay: 9s;
+	-webkit-animation-delay: 9s;
+  }
+  #crossfade div:nth-of-type(5) {
+	animation-delay: 6s;
+	-webkit-animation-delay: 6s;
+  }
+  #crossfade div:nth-of-type(6) {
+	animation-delay: 3s;
+	-webkit-animation-delay: 3s;
+  }
+
+  #crossfade div:nth-of-type(7) {
+	animation-delay: 0s;
+	-webkit-animation-delay: 0s;
+  } 
+ */
+  
+
+/* text on background */
+.main-text {
+
+	margin-left: 30%;
+	margin-top: 10%;
+	width: 30%;
+	height:30%;
+}
+h1, h5, h3 {
+	font-family: 'Barlow';
+	letter-spacing: 0.1em;
+}
+h1 {
+	margin-bottom: -15px;
+	margin-top: -5px;
+}
+h5, h3 {
+	font-weight: lighter;
+	letter-spacing: 0.1em;
+}
+
+/* text on background end */

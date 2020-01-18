@@ -1,0 +1,87 @@
+:root {
+    --background: #070707;
+    --text: #EFF0FA ;
+    --highlights: #7C7C7C ;
+}
+
+
+body {
+    background: var(--background) ;
+    color: var(--text)
+}
+/* navigation bar */
+.topnav {
+	background-color: var(--background);
+	height: 10%;
+	font-family: 'Barlow';
+	
+}
+.topnav a {
+	justify-content: center;
+	color: var(--text);
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+	font-size: 0.90em;
+}
+
+
+.topnav a:hover{
+	text-decoration: underline;
+}
+
+.topnav a.active {
+	color: var(--text);
+}
+
+#index{
+	padding-left: 40%;
+	padding-right: 20px;
+}
+#info{
+	padding-right: 20px;
+}
+#video{
+	padding-right: 20px;
+}
+/* navigation bar end */
+
+/* text and background */
+
+#main-text {
+    background-size: cover;
+    background: url("./crossfadewebsite/bcn.jpg") no-repeat center center fixed;
+    background-blend-mode: darken;
+    transition: 4s;
+    padding-bottom: 20%;
+    padding-top: 10%;
+    margin-top: 10px;
+}
+
+
+.titles {
+    margin-left: 30%;
+	margin-top: 10%;
+	width: 30%;
+	height:30%; 
+}
+h1, h5, h3 {
+	font-family: 'Barlow';
+	letter-spacing: 0.1em;
+}
+h1 {
+	margin-bottom: -15px;
+	margin-top: -5px;
+}
+h5, h3 {
+	font-weight: lighter;
+	letter-spacing: 0.1em;
+}
+@media all and (max-width: 770px) {
+	#main-text { display: none; }
+}
+/* text and background end */
+
+
+
+
