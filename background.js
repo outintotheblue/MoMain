@@ -1,9 +1,9 @@
-let imageArray = ['bcn.jpg','concert.JPG', 'etd.png', 'kyte.png', 'musicidio.png', 'subarctic.png', 'wave.png'],
-base = './crossfadewebsite/',
-secs = 4;
+let imageArray = ['bcn.png','concert.png', 'etd.png', 'levitat.png', 'subarctic.png', 'wave.png'],
+base = './crossfadewebsite/pngs/',
+secs = 5;
 
 imageArray.forEach(function(img){
-    new Image().src = base +img;
+    new Image().src = base + img;
 });
 
 
