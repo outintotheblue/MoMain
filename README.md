@@ -1,5 +1,5 @@
 Martina Oyhenard -
 
-Colourist 
-Photographer
+Colourist, 
+Photographer,
 Design, video editing and web development -
